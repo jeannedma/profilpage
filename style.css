@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap');
+
+h1{
+	font-family: 'Hurricane', cursive;
+	font-size: 60px;
+	letter-spacing: 7px;
+	color: #535353;
+}
+
+h2{
+	color: #535353;
+	font-family: 'Playfair Display', serif;
+}
+
+h2:hover{
+	transform: scale(1.05);
+	transition: all 0.5s ease-out;
+}
+
+h3{
+	color: #535353;
+	font-family: 'Playfair Display', serif;
+}
+
+
+body {
+	background-color: #EAEAEA;
+	color: #ACACAC;
+	font-family: 'PT Serif', serif;
+	font-size: 20px;
+	text-decoration: none;
+	flex-direction: column;
+	text-align: center;
+ 	background-image: linear-gradient(45deg, #ACACAC 25%, transparent 25%, transparent 75%, #ACACAC 75%), linear-gradient(45deg, #ACACAC 25%, transparent 25%, transparent 75%, #ACACAC 75%);
+  	background-size: 100px 100px;
+ 	background-position: 0 0, 50px 50px;
+}
+
+.fa-brands{
+	font-size: 50px;
+	color: #65A657;
+}
+
+.fa-brands:hover{
+	background-color: #EAEAEA;
+	color: #535353;
+	transform: scale(1.15);
+	transition: all 1s ease-out;
+}
+
+img{
+	border: 5px solid #AEECA0;
+	box-shadow: 5px 15px 25px #535353;
+	margin-bottom: 20px;
+}
+
+img:hover{
+	transform: scale(1.05);
+	transition: all 0.5s ease-out;
+}
+
+#contenu{
+	width: 675px;
+	padding: 40px;
+	margin: 40px auto;
+	background-color: #EAEAEA;
+	border: 15px solid #535353;
+	box-shadow: 15px 25px 35px #535353;
+}
+
+#lien-site{
+	color: #AEECA0;
+	padding: 5px 10px;
+	border-radius: 6px;
+	text-decoration: none;
+	background-color: #65A657;
+}
+
+#lien-site:hover {
+	background-color: #ACACAC;
+	color: #535353;
+}
+
+.voyage{
+	text-align: center;
+	padding: 40px center;
+	font-size: 25px;
+	background-color: #AEECA0;
+	color: #ACACAC;
+	border: 10px solid #ACACAC;
+	width: 1100px;
+	box-shadow: 1px 10px 15px #535353;
+	margin: auto;
+	position: relative;
+	flex-direction: column;
+}
+
+#container-voyages {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#voyage-1{
+	border: 5px solid #535353;
+	color: #6BCC56;
+	background-color:#EAEAEA ;
+	margin: 10px;
+	height: 100px;
+	padding: auto;
+}
+
+#voyage-1:hover{
+	transform: scale(1.05);
+	transition: all 0.5s ease-out;
+}
+
+#voyage-2{
+	border: 5px solid #535353;
+	color: #A6D99A;
+	background-color:#EAEAEA ;
+	margin: 10px;
+	height: 100px;
+}
+
+#voyage-2:hover{
+	transform: scale(1.05);
+	transition: all 0.5s ease-out;
+}
+
+#voyage-3{
+	border: 5px solid #535353;
+	color: #246D12;
+	background-color:#EAEAEA ;
+	margin: 10px;
+	height: 100px;
+}
+
+#voyage-3:hover{
+	transform: scale(1.05);
+	transition: all 0.5s ease-out;
+}
